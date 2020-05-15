@@ -1,0 +1,69 @@
+########################################
+# Flavor Events for Osnabrück
+#
+# Scripted by Me
+########################################
+
+namespace = flavor_osn
+normal_or_historical_nations = yes
+
+# FFS
+country_event = {
+	id = flavor_osn.1
+	title = "flavor_osn.EVTNAME1"
+	desc = "flavor_osn.EVTDESC1"
+	picture = POPE_PREACHING_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OSN
+		NOT = {
+			has_opinion_modifier = {
+				who = MUN
+				modifier = opinion_diocese_rule
+			}
+		}
+		junior_union_with = MUN
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "flavor_han.EVTOPTA1"
+		add_opinion = {
+			who = MUN
+			modifier = opinion_diocese_rule
+		}
+	}
+}
+
+country_event = {
+	id = flavor_osn.2
+	title = "flavor_osn.EVTNAME2"
+	desc = "flavor_osn.EVTDESC2"
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		tag = OSN
+		has_opinion_modifier = {
+			who = MUN
+			modifier = opinion_diocese_rule
+		}
+		NOT = { junior_union_with = MUN }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "flavor_han.EVTOPTA2"
+		reverse_add_opinion = {
+			who = MUN
+			modifier = opinion_diocese_rule
+		}
+	}
+}
