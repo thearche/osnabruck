@@ -1,9 +1,3 @@
-########################################
-# Flavor Events for Osnabrück
-#
-# Scripted by Me
-########################################
-
 namespace = flavor_osn
 normal_or_historical_nations = yes
 
@@ -32,7 +26,7 @@ country_event = {
 	}
 
 	option = {
-		name = "flavor_han.EVTOPTA1"
+		name = "flavor_osn.EVTOPTA1"
 		add_opinion = {
 			who = MUN
 			modifier = opinion_diocese_rule
@@ -60,7 +54,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "flavor_han.EVTOPTA2"
+		name = "flavor_osn.EVTOPTA2"
 		reverse_add_opinion = {
 			who = MUN
 			modifier = opinion_diocese_rule

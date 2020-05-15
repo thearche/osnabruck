@@ -2,6 +2,13 @@
 union = {
 	first = MUN
 	second = OSN
-	start_date = 1508.1.1
+	start_date = 1444.1.1
+	end_date = 1450.6.2
+}
+
+union = {
+	first = MUN
+	second = OSN
+	start_date = 1532.1.1
 	end_date = 1553.7.16
 }
