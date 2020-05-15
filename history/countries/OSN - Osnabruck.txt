@@ -7,15 +7,15 @@ technology_group = western
 capital = 56	# Osnabrück
 fixed_capital = 56 # Cannot move capital away from this province & no power cost to move to it
 
-1442.1.1 = {
-	monarch = {
-		name = "Heinrich von Moers"
-		birth_date = 1378.1.1
-		adm = 3
-		dip = 3
-		mil = 1
-	}
-}
+#1442.1.1 = {
+#	monarch = {
+#		name = "Heinrich von Moers"
+#		birth_date = 1378.1.1
+#		adm = 3
+#		dip = 3
+#		mil = 1
+#	}
+#}
 
 1450.1.1 = {
 	monarch = {
@@ -59,7 +59,15 @@ fixed_capital = 56 # Cannot move capital away from this province & no power cost
 	}
 }
 
-# Diocese union under Münster from 1508-1553
+1508.1.1 = {
+	monarch = {
+		name = "Erich von Braunschweig-Grubenhagen"
+		birth_date = 1478.1.1
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
 
 1553.7.16 = {
 	monarch = {
