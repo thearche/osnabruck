@@ -1,5 +1,5 @@
 name="Osnabrück"
-tags={ 
+tags={
 	"New Nations"
 	"Missions And Decisions"
 	"Events"
