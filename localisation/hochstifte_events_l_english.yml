@@ -1,7 +1,0 @@
-﻿l_english:
- flavor_osn.EVTNAME1:0 "Diocese Union"
- flavor_osn.EVTDESC1:0 "Unlike a personal union between two feudal fifes, and unlike the vassalage of a lesser lord, sometimes a single Prince-Bishop might be granted ecclesiastical rule over multiple states. This holds a much greater authority than a lord simply taking the throne of another independent power."
- flavor_osn.EVTOPTA1:0 "The church has willed it!"
- flavor_osn.EVTNAME2:0 "Diocese Union Ended"
- flavor_osn.EVTDESC2:0 "A single Prince-Bishop no longer rules over multiple diocese and a new Bishop has been appointed in their stead."
- flavor_osn.EVTOPTA2:0 "The church has willed it!"

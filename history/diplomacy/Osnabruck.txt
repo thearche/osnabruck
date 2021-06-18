@@ -1,0 +1,14 @@
+# Munster-Osnabrück
+vassal = {
+	first = MUN
+	second = OSN
+	start_date = 1444.1.1
+	end_date = 1450.6.2
+}
+
+vassal = {
+	first = MUN
+	second = OSN
+	start_date = 1532.1.1
+	end_date = 1553.7.16
+}

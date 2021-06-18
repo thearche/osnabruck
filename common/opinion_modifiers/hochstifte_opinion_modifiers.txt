@@ -1,4 +1,0 @@
-opinion_diocese_rule = {
-	opinion = 200
-	years = 1000
-}

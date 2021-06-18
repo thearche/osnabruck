@@ -1,3 +1,0 @@
-secular_principality = {
-	tolerance_own = -1
-}
